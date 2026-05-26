@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect width="256" height="256" rx="48" fill="url(#bg)"/>
+  <!-- Newspaper/document icon -->
+  <rect x="56" y="48" width="144" height="160" rx="12" fill="white" fill-opacity="0.95"/>
+  <!-- Header line -->
+  <rect x="76" y="72" width="104" height="8" rx="4" fill="#4f46e5" fill-opacity="0.8"/>
+  <!-- Text lines -->
+  <rect x="76" y="96" width="80" height="5" rx="2.5" fill="#4f46e5" fill-opacity="0.3"/>
+  <rect x="76" y="110" width="104" height="5" rx="2.5" fill="#4f46e5" fill-opacity="0.3"/>
+  <rect x="76" y="124" width="64" height="5" rx="2.5" fill="#4f46e5" fill-opacity="0.3"/>
+  <!-- Radar/scan circles (bottom right) -->
+  <circle cx="168" cy="164" r="28" fill="none" stroke="#7c3aed" stroke-width="4" stroke-opacity="0.6"/>
+  <circle cx="168" cy="164" r="18" fill="none" stroke="#7c3aed" stroke-width="3" stroke-opacity="0.4"/>
+  <circle cx="168" cy="164" r="8" fill="#7c3aed" fill-opacity="0.8"/>
+  <!-- Radar sweep line -->
+  <line x1="168" y1="164" x2="188" y2="144" stroke="#7c3aed" stroke-width="3" stroke-opacity="0.7" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Arboretum desktop icon — master source at 1024×1024.
+
+  Composition follows the v2 handoff:
+    - Squircle container (radius = size × 0.225)
+    - Cream radial gradient background (#ffffff → #f1ecdb)
+    - Pine-green sprout silhouette (#1f3a2a)
+    - 16% inset for the silhouette so visual mass ≈ 68% of the icon
+
+  Use with `npm run generate:icons` which rasterizes this file to PNG
+  and hands it to Tauri's icon generator for the full platform set.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <clipPath id="squircle-clip">
+      <rect width="1024" height="1024" rx="230" ry="230"/>
+    </clipPath>
+    <radialGradient id="paper-bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1ecdb"/>
+    </radialGradient>
+  </defs>
+
+  <g clip-path="url(#squircle-clip)">
+    <!-- Background -->
+    <rect width="1024" height="1024" fill="url(#paper-bg)"/>
+
+    <!-- Sprout silhouette (100×100 source, 16% inset → translate 164, scale 7.04) -->
+    <g transform="translate(164 123) scale(7.04)" fill="#1f3a2a">
+      <path d="M48 88 L48 50 Q49 48 52 48 L52 88 Z"/>
+      <rect x="28" y="86" width="44" height="3" rx="1.5"/>
+      <path d="M50 50 C 50 38, 60 28, 76 26 C 74 38, 66 50, 52 52 Z"/>
+      <path d="M50 56 C 50 46, 42 38, 28 38 C 30 48, 38 56, 50 60 Z"/>
+    </g>
+
+    <!-- Subtle inner rim -->
+    <rect width="1024" height="1024" fill="none" stroke="rgba(0,0,0,0.06)" stroke-width="1" rx="230" ry="230"/>
+  </g>
+</svg>

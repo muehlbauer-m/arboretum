@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+src-tauri/target/
+
+# Generated newsletters
+*.md
+!README.md
+!CLAUDE.md
+!ORCHESTRATOR.md
+
+# Tauri dev artifacts
+src-tauri/gen/
+
+# Env / secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code session data
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Design handoff archives (reference only, not part of the build)
+.claude-design-handoff/
+.claude-design-handoff-v2/
+research app.zip
+
+# Scratch output from `npm run generate:icons`
+icon-source.png
+
+# Quality-test harness outputs (reproducible by running scripts/quality-test/harness.py)
+scripts/quality-test/output/
+__pycache__/
