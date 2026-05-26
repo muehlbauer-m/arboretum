@@ -10,8 +10,10 @@
 
 Pre-built installers are published on the [**Releases page**](https://github.com/muehlbauer-m/arboretum/releases/latest):
 
-- **Windows** — [`Arboretum_x64_en-US.msi`](https://github.com/muehlbauer-m/arboretum/releases/latest) (MSI installer) or [`Arboretum_x64-setup.exe`](https://github.com/muehlbauer-m/arboretum/releases/latest) (NSIS)
-- **macOS** — [`Arboretum.dmg`](https://github.com/muehlbauer-m/arboretum/releases/latest) (Apple Silicon & Intel)
+- **Windows** — [`Arboretum_0.1.0_x64_en-US.msi`](https://github.com/muehlbauer-m/arboretum/releases/latest/download/Arboretum_0.1.0_x64_en-US.msi) (MSI installer) or [`Arboretum_0.1.0_x64-setup.exe`](https://github.com/muehlbauer-m/arboretum/releases/latest/download/Arboretum_0.1.0_x64-setup.exe) (NSIS installer — smaller, faster)
+- **macOS** — build from source for now ([instructions below](#build--run)). DMG release coming once I get a Mac to sign with.
+
+> The Windows binaries are unsigned, so SmartScreen may warn you on first launch — click *More info → Run anyway*.
 
 After install: launch the app, open **Settings**, paste an [Anthropic](https://console.anthropic.com/settings/keys) or [Gemini](https://aistudio.google.com/apikey) API key (or pick *Local* and download an Ollama model from inside the app), and start a digest from the Home tab.
 
