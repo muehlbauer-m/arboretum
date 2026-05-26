@@ -6,6 +6,23 @@
 ![Platform: Windows · macOS](https://img.shields.io/badge/platform-Windows%20%C2%B7%20macOS-moss)
 ![Stack: Tauri · Rust · React · TypeScript](https://img.shields.io/badge/stack-Tauri%20%C2%B7%20Rust%20%C2%B7%20React-rust)
 
+## 📥 Download
+
+Pre-built installers are published on the [**Releases page**](https://github.com/muehlbauer-m/arboretum/releases/latest):
+
+- **Windows** — [`Arboretum_x64_en-US.msi`](https://github.com/muehlbauer-m/arboretum/releases/latest) (MSI installer) or [`Arboretum_x64-setup.exe`](https://github.com/muehlbauer-m/arboretum/releases/latest) (NSIS)
+- **macOS** — [`Arboretum.dmg`](https://github.com/muehlbauer-m/arboretum/releases/latest) (Apple Silicon & Intel)
+
+After install: launch the app, open **Settings**, paste an [Anthropic](https://console.anthropic.com/settings/keys) or [Gemini](https://aistudio.google.com/apikey) API key (or pick *Local* and download an Ollama model from inside the app), and start a digest from the Home tab.
+
+> *Building from source instead?* Jump to [Getting started](#getting-started).
+
+---
+
+> 🤖 **AI-assisted development.** This codebase was built in close collaboration with Claude (Anthropic's coding assistant). The architecture, design decisions, and product direction are mine; a substantial share of the line-by-line implementation, refactoring, and test work was done by Claude under my direction. I've reviewed every change before it landed. The result is a project I could not have shipped at this scope alone, and one whose internals I understand and can extend by hand.
+
+---
+
 Arboretum is what happens when you stop trying to keep up with the literature by hand. Type a research interest in plain language — *"hierarchical Bayesian small-area estimation"*, *"foundation models for protein design"*, *"causal inference in panel data"* — and Arboretum:
 
 1. Turns it into an academic search query and a newsletter title.
