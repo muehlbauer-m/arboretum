@@ -35,7 +35,7 @@ Arboretum is what happens when you stop trying to keep up with the literature by
 
 The same machinery powers a **conflict scanner**: define a profile describing your own work, and Arboretum scans recent literature for potentially overlapping or competing papers, scoring each 0–100 and surfacing the threats above a threshold you set.
 
-![screenshot placeholder](docs/screenshot.png)
+![Arboretum on Windows — the Generate view with the editorial Paper theme, sidebar, and a sample topic card.](docs/screenshot.png)
 
 ---
 
